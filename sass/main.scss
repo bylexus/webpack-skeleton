@@ -1,0 +1,10 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$fa-font-path: "~font-awesome/fonts/";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/theme";
+@import "~font-awesome/scss/font-awesome";
+
+html,body {
+    font-family: 'Helvetiva Neue',Helvetica,sans-serif;
+}

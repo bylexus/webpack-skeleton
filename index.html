@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+     <link rel="stylesheet" type="text/css" href="build/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Example page</h1>
+            <p>This page contains both "legacy" app parts, and react components. All assets / JS are packed
+            using webpack.</p>
+            <p>It also incorporates the Bootstrap CSS framework and the font awesome icon font, also compiled with webpack.</p>
+            <h2>Old-school jquery part</h2>
+            <button type="button" class="btn btn-primary" id="btn">click!</button>
+            <div id="react-app"></div>
+            <h2>Testing font-awesome <i class="fa fa-heart"></i> <i class="fa fa-spinner fa-spin"></i></h2>
+        </div>
+
+        <script src="build/vendors.js"></script>
+        <script src="build/common.js"></script>
+        <script src="build/legacy-app.js"></script>
+        <script src="build/react-app.js"></script>
+    </body>
+</html>
